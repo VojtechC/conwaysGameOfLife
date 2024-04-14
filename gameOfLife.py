@@ -1,8 +1,8 @@
 import time
 import numpy as np
 
-GRID_HEIGHT = 40
-GRID_WIDTH = 40
+GRID_HEIGHT = 5
+GRID_WIDTH = 5
 GEN_DURATION = 5 #seconds
 
 gameGrid = np.random.choice([0,1],(GRID_HEIGHT,GRID_WIDTH))
